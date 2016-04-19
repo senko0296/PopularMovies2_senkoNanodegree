@@ -152,7 +152,6 @@ public class MovieListFragment extends Fragment {
             @Override
             public void failure(RetrofitError error) {
 
-                pgDialog.hide();
                 Toast.makeText(getContext(), R.string.connectionFailed, Toast.LENGTH_SHORT).show();
             }
         });

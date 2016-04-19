@@ -5,7 +5,7 @@ package com.example.anirudhraghunath.popularmovies1.resources;
  */
 public class Constants {
 
-    public static final String API_KEY = "";
+    public static final String API_KEY = "f3a61553c699eb5c60c388591af4d976";
     public static final String URL_BASE = "https://api.themoviedb.org/3";
     public static final String URL_POSTER_IMAGE = "http://image.tmdb.org/t/p/w342";
     public static final String URL_YOUTUBE_IMAGE_HEADER = "http://img.youtube.com/vi/";

@@ -33,10 +33,10 @@ public class APIClient {
 
     public interface tmdbInterface {
 
-        @GET("/discover/movie?sort_by=popularity.desc&api_key=" + Constants.API_KEY)
+        @GET("/movie/popular?api_key=" + Constants.API_KEY)
         public void getPopular(Callback<Movies> moviesCallback);
 
-        @GET("/discover/movie?sort_by=vote_average.desc&api_key=" + Constants.API_KEY)
+        @GET("/movie/top_rated?api_key=" + Constants.API_KEY)
         public void getTopRated(Callback<Movies> moviesCallback);
 
         @GET("/movie/{id}/videos?api_key=" + Constants.API_KEY)
